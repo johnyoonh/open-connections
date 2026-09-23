@@ -2,7 +2,7 @@
 
 **Your notes, semantically connected.** A powerful Obsidian plugin that discovers related notes and enables semantic search across your entire vault—powered by local embeddings or your favorite AI provider.
 
-![Version](https://img.shields.io/badge/version-3.9.13-blue) ![License](https://img.shields.io/badge/license-GPL--3.0-green) ![Desktop Only](https://img.shields.io/badge/platform-desktop--only-gray)
+![Version](https://img.shields.io/badge/version-3.9.45-blue) ![License](https://img.shields.io/badge/license-GPL--3.0-green) ![Desktop Only](https://img.shields.io/badge/platform-desktop--only-gray)
 
 ## Why Open Connections?
 
@@ -19,7 +19,6 @@ Open Connections bridges the gap between simple keyword search and intelligent s
 - **Fast SQLite cache** — Embeddings are stored locally and reused across sessions
 - **Model fingerprinting** — Automatically re-embeds when you change providers or models
 - **Status bar progress** — See embedding progress in real-time
-- **Mobile support** — Works on iOS and Android
 
 ## Quick Start
 
@@ -34,7 +33,7 @@ Open Connections bridges the gap between simple keyword search and intelligent s
 
 #### Manual Installation
 
-1. Download `main.js`, `manifest.json`, and `styles.css` from the [latest release](https://github.com/GoBeromsu/Open-smart-connections/releases/latest)
+1. Download `main.js`, `manifest.json`, and `styles.css` from an [upstream release](https://github.com/Xia-Ataraxia/obsidian-open-connections/releases/latest)
 2. Create `.obsidian/plugins/open-connections/` in your vault
 3. Copy the three files into that directory
 4. Enable **Open Connections** in Settings > Community Plugins
@@ -42,7 +41,7 @@ Open Connections bridges the gap between simple keyword search and intelligent s
 #### Build from Source
 
 ```bash
-git clone https://github.com/GoBeromsu/Open-smart-connections.git
+git clone https://github.com/johnyoonh/open-connections.git
 cd open-connections
 pnpm install
 pnpm run build
@@ -262,7 +261,7 @@ open-connections/
 ### Setup
 
 ```bash
-git clone https://github.com/GoBeromsu/Open-smart-connections.git
+git clone https://github.com/johnyoonh/open-connections.git
 cd open-connections
 pnpm install
 ```
@@ -349,15 +348,15 @@ See [LICENSE](LICENSE) for details.
 
 ## Acknowledgments
 
-This project is a fork of [Smart Connections](https://github.com/brianpetro/obsidian-smart-connections) by Brian Petro. It has been rebuilt from the ground up for stability, extensibility, and integration with the broader Obsidian plugin ecosystem.
+This repository is maintained as a fork of [Xia-Ataraxia/obsidian-open-connections](https://github.com/Xia-Ataraxia/obsidian-open-connections), in the lineage of [Smart Connections](https://github.com/brianpetro/obsidian-smart-connections) by Brian Petro. This fork includes additional integration and verification work while preserving upstream attribution.
 
 Per GPL-3.0 Section 5, this modified version is clearly marked as different from the original.
 
 ## Links
 
-- **Repository:** https://github.com/GoBeromsu/Open-smart-connections
-- **Releases:** https://github.com/GoBeromsu/Open-smart-connections/releases
-- **Issues:** https://github.com/GoBeromsu/Open-smart-connections/issues
+- **Repository:** https://github.com/johnyoonh/open-connections
+- **Issues:** https://github.com/johnyoonh/open-connections/issues
+- **Upstream releases:** https://github.com/Xia-Ataraxia/obsidian-open-connections/releases
 - **Obsidian:** https://obsidian.md/
 - **Smart Connections (Original):** https://smartconnections.app/
 
