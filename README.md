@@ -348,7 +348,7 @@ See [LICENSE](LICENSE) for details.
 
 ## Acknowledgments
 
-This repository is maintained as a fork of [Xia-Ataraxia/obsidian-open-connections](https://github.com/Xia-Ataraxia/obsidian-open-connections), in the lineage of [Smart Connections](https://github.com/brianpetro/obsidian-smart-connections) by Brian Petro. This fork includes additional integration and verification work while preserving upstream attribution.
+This repository is maintained as a fork of [Xia-Ataraxia/obsidian-open-connections](https://github.com/Xia-Ataraxia/obsidian-open-connections), in the lineage of [Smart Connections](https://github.com/brianpetro/obsidian-smart-connections) by Brian Petro. Active fork-specific work is submitted upstream; for example, [PR #83](https://github.com/Xia-Ataraxia/obsidian-open-connections/pull/83) adds a mobile-safe vault-file storage adapter and storage abstraction. That work is still under review and is not yet on `main`.
 
 Per GPL-3.0 Section 5, this modified version is clearly marked as different from the original.
 
